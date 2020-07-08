@@ -140,12 +140,18 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+		<!--	<plugin>
 			    <groupId>org.codehaus.mojo</groupId>
 			    <artifactId>sonar-maven-plugin</artifactId>
 			    <version>3.7.0</version>
-			</plugin>
-			<plugin>
+			</plugin> -->
+			<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/versions-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>versions-maven-plugin</artifactId>
+    <version>2.7</version>
+</dependency>
+		<!--	<plugin>
 			    <groupId>org.flywaydb</groupId>
         		    <artifactId>flyway-maven-plugin</artifactId>
 			    <version>6.3.2</version>
@@ -175,9 +181,9 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                 <testFailureIgnore>true</testFailureIgnore>
-                <!-- Use it if required-->
+               
                 </configuration>
-            </plugin>
+            </plugin> -->
 		</plugins>
 	</build>
 </project>
