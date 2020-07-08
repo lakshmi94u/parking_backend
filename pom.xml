@@ -103,6 +103,13 @@
             <version>6.9.4</version>
             <scope>test</scope>
         </dependency>
+		<!-- https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.sonarsource.scanner.maven</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.7.0.1746</version>
+</dependency>
+
 </dependencies>
 	<scm>
        <connection>scm:https://github.com/rshruti/parking_backend.git</connection>
